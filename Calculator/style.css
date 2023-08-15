@@ -1,0 +1,46 @@
+body {
+  background-color: aquamarine;
+}
+
+.title {
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 220px;
+  text-align: center;
+  color: blue;
+}
+
+input[type="button"] {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  width: 100%;
+}
+
+input[type="text"] {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  border: 2px solid black;
+  width: 100%;
+}
+
+input[type="button"]:hover {
+  background-color: aqua;
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: #020006;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+footer a:hover,
+footer a:active {
+  color: coral;
+}

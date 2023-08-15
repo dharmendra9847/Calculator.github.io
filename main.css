@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(tv-on-wall-header-image.jpg) no-repeat center/cover;
+  height: 100vh;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.clock {
+  position: absolute;
+  top: 40%;
+  left: 53%;
+  color: white;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 60px;
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 7;
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  top: 320px;
+}
+
+footer a {
+  position: relative;
+  left: 45%;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 8px;
+  text-align: center;
+  justify-content: center;
+}
+
+footer a:hover,
+footer a:active {
+  color: coral;
+}

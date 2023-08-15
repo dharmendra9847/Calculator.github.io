@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="row">TO-DO List!</h1>
+      <br /><br />
+      <div class="row">
+        <form>
+          <div class="input_group">
+            <input
+              type="text"
+              placeholder="TO-DO Items"
+              id="box"
+              style="width: 30vw"
+            />
+          </div>
+          <br />
+          <div class="form_group">
+            <input
+              type="button"
+              value="ADD"
+              style="width: 10vw"
+              onclick="add_item()"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <ul id="list_item"></ul>
+      </div>
+    </div>
+
+    <footer>
+      <a href="../index.html">Home Page</a>
+      <a href="todo.html">TO-DO-List</a>
+      <a href="../Calculator/calculator.html">Calculator</a>
+    </footer>
+
+    <!-- Here javascript link starts -->
+    <script src="script.js"></script>
+  </body>
+</html>
